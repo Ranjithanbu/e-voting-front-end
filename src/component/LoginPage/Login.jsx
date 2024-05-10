@@ -7,6 +7,7 @@ import axios from 'axios'
 import {useNavigate} from 'react-router-dom'
 const Login = () => {
 const [userData,setUserData]=useState([])
+
 const navigate=useNavigate()
 const initialValues={
     userName:'',
@@ -25,10 +26,8 @@ try {
 toast.success(res.data.message)
 setUserData(res.data.data)
 setTimeout(()=>{
-    if(userData.role=='admin'){
-navigate('/admin')
-    }
-    else(navigate('/user'))
+
+    res.data.data.role=='admin'?navigate('/admin'):navigate('/user')
 },4000)
 }) 
 } catch (error) {
