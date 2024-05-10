@@ -1,0 +1,93 @@
+.form{
+
+    display: flex;
+    width:75vw;
+height: 70vh;
+
+justify-content:space-around;
+margin:5vh auto;
+
+
+.form-container{
+   
+     
+    width:40%;
+
+border-radius: 10px;
+padding:10px;
+
+.heading{
+    text-align: center;
+    margin:2rem;
+}
+.name{
+    
+    text-align: center;
+    margin:2rem 0;
+    
+    input{
+        width: 100%;
+    height:5vh;
+    border-radius:5px;
+    border: none;
+    }
+}
+.email{
+    text-align: center;
+    margin:2rem 0;
+    
+    input{
+        width: 100%;
+        height:5vh;
+        border-radius:5px;
+        border: none;
+    }
+}
+.password{
+    text-align: center;
+    margin:2rem 0;
+    input{
+        width: 100%;
+        height:5vh;
+        border-radius:5px;
+        border: none;
+    }    
+}
+p{
+    margin:1.5rem 0;
+}
+.button{
+    
+    button{
+display: block;
+width: 100%;
+        margin: 0 auto;
+padding: 5px;
+background-color: blue;
+color: white;
+border-radius: 10px;
+outline: none;
+border: none;
+}
+}
+
+}
+}
+.register-greetings{
+margin-top: 2vh;
+    align-self: center;
+justify-content: center;
+ 
+span{
+    font-size:1.2em;
+    -webkit-text-stroke:2px white;
+}    
+}
+
+.error{
+    display: inline-block;
+    
+    width: 100%;
+    text-align: end;
+   color: coral; 
+}

@@ -1,0 +1,45 @@
+*{
+    scrollbar-width: none;
+}
+.m-content{
+    color: rgb(217,174,99);
+    align-self: center;
+    justify-self: center;
+    
+    h1{
+        
+    -webkit-text-stroke: 1px white;
+    text-transform: capitalize;
+    span{
+     display: block;
+        font-size: 1.5em;
+    }
+}
+}
+.home-content{
+    
+    color:rgb(238,223,197);
+    font-weight:400;
+}
+.container .f-container{
+    min-height: 100vh;
+}
+
+.img-container{
+    
+    
+    justify-self: center;
+    align-self: center;
+}
+.second-content{
+ 
+    h1{
+        color: rgb(217,174,99);
+        -webkit-text-stroke: 1px white;
+ 
+        span{
+    font-size: 1.2em;
+ }
+    }
+}
+
