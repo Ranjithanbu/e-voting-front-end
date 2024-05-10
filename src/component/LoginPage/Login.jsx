@@ -21,7 +21,7 @@ const formik=useFormik({
     validationSchema,
     onSubmit:async(e)=>{
 try {
-    await axios.post('http://localhost:5000/api/loginUser',e).then(res=>{
+    await axios.post('https://e-voting-back-end.onrender.com/api/loginUser',e).then(res=>{
 toast.success(res.data.message)
 setUserData(res.data.data)
 setTimeout(()=>{

@@ -26,7 +26,7 @@ validationSchema,
 onSubmit:async(e)=>{
     
     try {
-        await axios.post('http://localhost:5000/api/registerUser',e).then(res=>{
+        await axios.post('https://e-voting-back-end.onrender.com/api/registerUser',e).then(res=>{
         toast.success(res.data.message)
         setTimeout(()=>{
             navigate('/login')
